@@ -65,7 +65,7 @@ GRASP의 CREATOR(창조자) 패턴
 - B가 A 객체를 초기화하는데 필요한 데이터를 가지고 있다.(B는 A에 대한 정보 전문가)
 >
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d585b519-8573-4b79-a92a-7a04a0718b84/df02f646-ea17-47d4-9524-94e90e50af73/image.png)
+![image.png](https://github.com/user-attachments/assets/97728bbd-b13c-4a54-8910-aba3be473b88)
 
 Screening은 Reservation을 생성하는데 필요한 가장 많은 정보를 가지고 있다. → 정보 전문가
 
@@ -131,7 +131,7 @@ But, 아는 클래스가 2개로 증가하여 결합도 증가, 목록 별로 �
 
 → 암시적 타입을 명시적 클래스로 정의하고 행동을 나눔으로써 응집도를 낮춤.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d585b519-8573-4b79-a92a-7a04a0718b84/fad88015-2c78-4f4b-8720-19709a19153f/image.png)
+![image](https://github.com/user-attachments/assets/ffb76c88-42b3-4204-a90a-1d308a327ae0)
 
 ## Movie 클래스 개선하기
 
@@ -139,7 +139,7 @@ Movie 클래스도 Discount와 같은 문제를 안고 있다.
 
 다형성 패턴으로 타입을 마찬가지로 분리한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d585b519-8573-4b79-a92a-7a04a0718b84/a7e5ec72-72c1-4f55-9bc4-9d20d06ced32/image.png)
+![image](https://github.com/user-attachments/assets/2d183e10-0ba8-479c-b653-40a8d18026be)
 
 <aside>
 💡
@@ -157,7 +157,8 @@ Movie 클래스도 Discount와 같은 문제를 안고 있다.
 
 대부분의 경우에 전자가 더 좋은 방법이지만 유사한 변경이 반복적으로 발생하고 있다면 복잡성이 상승하더라도 유연성을 추가하는 두 번째 방법이 더 좋다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d585b519-8573-4b79-a92a-7a04a0718b84/5967295c-39a1-4fe3-8ebd-9c25c55ad189/image.png)
+![image](https://github.com/user-attachments/assets/9e137ffb-cb22-49df-a4f4-8219418a7232)
+
 
 > 유연성은 의존성 관리의 문제이다.
 요소들 사이의 의존성 정도가 유연성의 정도를 결정한다.
